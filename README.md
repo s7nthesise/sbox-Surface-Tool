@@ -1,6 +1,5 @@
 # sbox-Surface-Tool
 Surface-snapping editor tool with bounding box awareness and simple quick-rotate.
-Lets you drag objects along any surface with accurate bounding box awareness.
 
 # Features
 

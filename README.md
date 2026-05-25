@@ -27,9 +27,11 @@ Surface-snapping editor tool with bounding box awareness and simple quick-rotate
 
 ## Keybinds
 Y - Activate Surface Move tool
+
 CTRL+R - Quick rotate selected object
+
 Shift+Drag - Clone and move
+
 **Keybinds can be changed through Edit>Preferences>Editor Keybinds.**
 
 ## Suggestions? Open a request. I only made this simple tool because it makes map making significantly easier, so as ideas come along I'll implement whenever.
-

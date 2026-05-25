@@ -23,7 +23,7 @@ Lets you drag objects along any surface with accurate bounding box awareness.
 - WorldPosition or bounding box center as the grabbing pivot point. Bounding box center for most use cases, but the option is there for rare occasions. Center accurately updates when utilizing multi-selection.
 
 ## Customization
-- Edit size of anchor point and axis arrows. Default arrows are atrociously inconvinient due to being too close to center object and anchor point, so this fixes that.
+- Edit size of anchor point and axis arrows. Default arrows are atrociously inconvenient due to being too close to center object and anchor point, so this fixes that.
 - Hide collider scaling gizmo. Yeah, I couldn't figure how to hide these in the editor. Hide Gizmos doesn't hide them and they 10/10 angered me when trying to move objects due to always grabbing them.
 
 ## Keybinds

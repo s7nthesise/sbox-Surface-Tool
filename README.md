@@ -26,12 +26,10 @@ Surface-snapping editor tool with bounding box awareness and simple quick-rotate
 - Hide collider scaling gizmo. Yeah, I couldn't figure how to hide these in the editor. Hide Gizmos doesn't hide them and they 10/10 angered me when trying to move objects due to always grabbing them.
 
 ## Keybinds
-Y - Activate Surface Move tool
-
-CTRL+R - Quick rotate selected object
-
-Shift+Drag - Clone and move
-
+- Y - Activate Surface Move tool
+- CTRL+R - Quick rotate selected object
+- Shift+Drag - Clone and move
+  
 **Keybinds can be changed through Edit>Preferences>Editor Keybinds.**
 
 ## Suggestions? Open a request. I only made this simple tool because it makes map making significantly easier, so as ideas come along I'll implement whenever.

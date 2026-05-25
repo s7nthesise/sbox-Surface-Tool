@@ -1,0 +1,14 @@
+{
+  "Title": "Surface Tool",
+  "Type": "library",
+  "Org": "locksake",
+  "Ident": "surfacetools",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "Metadata": {}
+}

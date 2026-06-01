@@ -197,6 +197,8 @@ public sealed class SurfaceSnapPositionTool : EditorTool
 				if ( Gizmo.Control.Arrow( "forward", Vector3.Forward, out var fwdDist, arrowLength, arrowGirth, arrowOffset ) )
 					movement += Vector3.Forward * fwdDist;
 
+				movement = handleRotation * movement;
+
 				{
 					var camRot = Gizmo.Transform.RotationToLocal( Gizmo.Camera.Rotation );
 					using ( Gizmo.Scope( "surface-drag", new Transform( Vector3.Zero, camRot ) ) )
@@ -234,8 +236,6 @@ public sealed class SurfaceSnapPositionTool : EditorTool
 									var heDist = MathF.Abs( n.x ) * he.x + MathF.Abs( n.y ) * he.y + MathF.Abs( n.z ) * he.z;
 									var rawAlongNormal = Vector3.Dot( rawOffset, n );
 
-									// Near surface: preserve lateral offset so drag starts from current position.
-									// Far from surface: snap to cursor hit point (no lateral offset from air position).
 									if ( RespectBoundingBox && MathF.Abs( rawAlongNormal ) <= heDist + 4f )
 										_grabOffset = (rawOffset - n * rawAlongNormal) + n * heDist;
 									else
